@@ -10,7 +10,7 @@
 0 10,14	* * *	root	sudo /usr/local/bin/php /opnsense-scripts/opnsense_zbx.php sysversion_cron	
 
 #verificar teste de velocidade cada 30 minutos
-0/30 * * * *	root	speedtest-cli --single --bytes --secure --json > /tmp/speedtest_result.json
+0/30 * * * *	root	speedtest-cli timeout 30 --single --bytes --secure --json > /tmp/speedtest_result.json
 
 #verificar scripts do github a cada 1h
 0 7-22 * * *	root	/opnsense-scripts/github.sh
