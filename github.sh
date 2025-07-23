@@ -1,9 +1,9 @@
 #!/bin/sh
 
 # Caminho local do repositório
-REPO_DIR="/usr/local/scripts/opnsense-zbx"
+REPO_DIR="/"
 # URL do repositório remoto
-REPO_URL="https://github.com/habilleandro/opnsense-zbx.git"
+REPO_URL="https://github.com/habilleandro/opnsense-scrips.git"
 
 # Se o diretório ainda não existe, clona o repositório
 if [ ! -d "$REPO_DIR/.git" ]; then
