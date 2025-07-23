@@ -8,4 +8,4 @@
 # *  *  *  *  * user-name command to be executed
 0 10,14	* * *	root	sudo /usr/local/bin/php /opnsense-scripts/opnsense_zbx.php sysversion_cron	
 0 * * * *	root	/opnsense-scripts/speedtest_run.sh
-0 7-22 * * *	root	/root/github.sh
+0 7-22 * * *	root	/opnsense-scripts/github.sh
