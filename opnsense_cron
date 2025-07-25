@@ -11,3 +11,6 @@
 
 #verificar scripts do github a cada 1h
 0 7-22 * * *	root	/opnsense-scripts/github.sh
+
+#speedtest cada 30 minutos
+*/30 * * * *    root    sudo python3 /opnsense-scripts/speedtest_run.py
