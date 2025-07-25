@@ -49,7 +49,7 @@ def is_int (n):
 
 #speedtest = "/usr/local/opnsense/scripts/OPNsense/speedtest/speedtest"
 speedtest = "speedtest"
-csvfile = "/usr/local/opnsense/scripts/OPNsense/speedtest/speedtest.csv"
+csvfile = "/tmp/speedtest.csv"
 
 arg=''
 if len(sys.argv)>1:

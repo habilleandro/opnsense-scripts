@@ -1,7 +1,7 @@
 <?php
 
 $metric = $argv[1] ?? 'download';
-$csvFile = '/usr/local/opnsense/scripts/OPNsense/speedtest/speedtest.csv';
+$csvFile = '/tmp/speedtest.csv';
 
 if (!file_exists($csvFile)) {
     echo "0\n";
