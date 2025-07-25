@@ -47,7 +47,7 @@ def is_int (n):
     except ValueError:
         return False
 
-#speedtest = "/usr/local/opnsense/scripts/OPNsense/speedtest/speedtest"
+#speedtest = "/opnsense-scripts/speedtest"
 speedtest = "speedtest"
 csvfile = "/tmp/speedtest.csv"
 
