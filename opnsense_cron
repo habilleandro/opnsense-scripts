@@ -14,3 +14,5 @@
 
 #speedtest cada 30 minutos
 */30 * * * *    root    sudo python3 /opnsense-scripts/speedtest_run.py
+
+##teste
